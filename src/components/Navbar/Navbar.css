@@ -1,0 +1,32 @@
+.navbar li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .itemLeft {
+    width: 15%;
+  }
+  
+  .itemCenter {
+      width: 70%;
+  }
+  
+  .itemRight {
+    width: 15%;
+  }
+  
+  .navbar {
+    background: rgb(36,29,0);
+background: linear-gradient(180deg, rgba(36,29,0,1) 0%, rgba(9,121,112,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  }
+  
+  li {
+    color: white;
+    padding: 15px 0;
+    filter: drop-shadow(2px 1px 0 #0f0f0f);
+  }
+  
+  body {
+    font-size: 24px;
+  }
